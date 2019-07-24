@@ -24,7 +24,7 @@ class Transfer
      self.receiver.balance -= @amount
      self.sender.balance(amount)
      self.sender
-      #binding.pry#look at, look at status complete?
+      binding.pry#look at, look at status complete?
    end
  end
 

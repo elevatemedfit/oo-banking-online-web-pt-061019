@@ -23,9 +23,10 @@ class Transfer
      if @status == "complete"
      self.receiver.balance -= @amount
      self.sender.balance(amount)
-     self.sender #look at, look at status complete?
+     self.sender
+     binding.pry#look at, look at status complete?
    end
-  
+
  end
 
   def execute_transaction

@@ -25,7 +25,7 @@ class Transfer
      self.sender.balance(amount)
      self.sender #look at, look at status complete?
    end
-   binding.pry
+  
  end
 
   def execute_transaction

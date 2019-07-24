@@ -22,9 +22,8 @@ class Transfer
    def reverse_transfer
      if @status == "complete"
      self.receiver.balance -= @amount
-     self.sender.balance(amount)
+     self.sender.balance
      self.sender
-     binding.pry#look at, look at status complete?
    end
 
  end
